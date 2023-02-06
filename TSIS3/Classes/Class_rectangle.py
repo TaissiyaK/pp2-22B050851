@@ -1,8 +1,12 @@
 class Shape:
+    def __init__(self):
+        self.area = 0
+    def area(self):
+        return self.area
+class Rectangle(Shape):
     def __init__(self, length, width):
             self.length = length
             self.width = width
-class Rectangle(Shape):
     def area(self):
         return self.length*self.width
     
