@@ -10,7 +10,7 @@ if b > a:
 else:
   print("b is not greater than a")
 
-print(bool("Hello"))
+print(bool("Hell"))
 print(bool(15))
 
 x = "Hello"
